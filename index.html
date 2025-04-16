@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Amazon clone</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <!--google fonts link for icons-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">  
+    </head>
+    <body>
+        <a name="topsection"></a>
+       <header>
+        <div class="navbar">
+            <div class="navlogo border">
+                <div class="logo">
+                </div>
+            </div>
+            <div class="nav_address border">
+                <p class="deliver">Deliver to</p>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="india">India</p>
+                </div>
+            </div>
+            <div class="nav_search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="search" placeholder="Search Amazon.in " class="search-input">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>   
+        <div class="nav-signin border">
+            <p><span id="user-info" onclick="redirectToLogin()" style="cursor: pointer; color: white;">Hello, sign in</span></p>
+            <p class="nav-second"><select class="account"><option>Account & List</option></select></p>
+        </div>
+        <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+        <div class="nav-cart border" onclick="window.location.href='cart.html'">
+    <i class="fa-solid fa-cart-arrow-down"></i>
+    Cart
+</div>
+
+        </div>
+        <div class="panel">
+        <div class="all border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+       
+        <div class=" panel-opns border">Fresh</div>
+        <div class=" panel-opns border">Amazon MiniTv</div>
+        <div class=" panel-opns border">Sell</div>
+        <div class=" panel-opns border">Best Sellers</div>
+        <div class=" panel-opns border">Mobiles</div>
+        <div class=" panel-opns border">Today's Deals</div>
+        <div class=" panel-opns border">Electronics</div>
+        <div class=" panel-opns border"><select class="primee">Prime
+            <option>Prime</option>
+        </select></div>
+        <div class=" panel-opns border">Fashion</div>
+        <div class=" panel-opns border">Customer Service</div>
+        <div class=" panel-opns border">Home & Kitchen</div>
+        <div class=" panel-opns border">New Releases</div>
+        <div class=" panel-opns border">Amazon
+            <i class="fa-brands fa-cc-amazon-pay"></i></div>
+        <div class=" panel-opns border">Computers</div>
+        <div class=" panel-opns border">Books</div>
+        <div class="watchfree border">Watch Now | Free on <p>Amazon Tv</p>  <i class="fa-sharp fa-solid fa-tv"></i></div>
+        </div>
+        
+        
+       </header>
+       <div class="slider">
+        <div class="slides">
+          <img src="box1/hero1.jpg" alt="hero1">
+          <img src="box1/hero2.jpg" alt="hero2">
+          <img src="box1/hero3.jpg" alt="hero3">
+          <img src="box1/hero4.jpg" alt="hero4">
+          <img src="box1/hero5.jpg" alt="hero5">
+          <img src="box1/hero6.jpg" alt="hero6">
+          <img src="box1/hero7.jpg" alt="hero7">
+          <img src="box1/hero8.jpg" alt="hero8">
+          <img src="box1/hero.jpg" alt="hero">
+        </div>
+      </div>
+      <script src="script.js"></script>
+      <div class="shop-section">
+        <div class="box1 box">
+            <h2>Appliances for your home | Up to 55% off</h2>
+               <div class="box-img" style="background-image:url('box2/box11.jpg'); float: left;">
+                <a href="product.html" style="text-decoration: none; color: black;">
+                    <h6>Air conditioners</h6>
+                </a>
+            </div>                           
+                <div class="box-img" style="background-image:url('box2/box12.jpg') ;float:left; "><h6>Refrigerators</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box13.jpg') ;float:left;"><h6>Microwaves</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box14.jpg') ;float:left;"><h6>Washing machines</h6></div>  
+                    <p class="see">see more</p>
+        </div>
+        
+        <div class="box2 box">
+            <h2>Starting Rs.99 | Amazon Brands & more</h2>
+                <div class="box-img" style="background-image:url('box2/box21.jpg') ;float: left;"><h6>Starting Rs.179| Home decor</h6></div>
+                <div class="box-img" style="background-image:url('box2/box22.jpg') ;float:left; "><h6>Starting Rs.99 | Toys & games</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box23.jpg') ;float:left;"><h6>Upto 60% off | Storage & racks</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box24.jpg') ;float:left;"><h6>Upto 60% off | Jackets,dresses &...</h6></div>  
+                        <p class="see">shop now</p>
+        </div>
+        <div class="box3 box">
+            <h2>Revamp your home beautiful in your style</h2>
+                <div class="box-img" style="background-image:url('box2/box31.jpg') ;float: left;"><h6>Cushion covers,bedsheets & more</h6></div>
+                <div class="box-img" style="background-image:url('box2/box32.jpg') ;float:left; "><h6>Home storage</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box33.jpg') ;float:left;"><h6>Figurines,vases and more</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box34.jpg') ;float:left;"><h6>Lightening solutions</h6></div>
+                    <p class="see">Explore all</p>
+        </div>
+        <div class="box4 box">
+            <h2>Up to 60% off  |  Styles and Fashion for women</h2>
+                <div class="box-img" style="background-image:url('box2/box41.jpg') ;float: left;"><h6>Women's Clothing</h6></div>
+                <div class="box-img" style="background-image:url('box2/box42.jpg') ;float:left; "><h6>Watches</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box43.jpg') ;float:left;"><h6>Footwaer+Handbags</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box44.jpg') ;float:left;"><h6>Fashion jewellery</h6></div>
+                    <p class="see">End of season sale</p></div>
+        </div>
+      </div>
+      <div class="shop-section2" >
+        <div class="box1 box">
+            <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box-img" style="background-image:url('box2/box11.jpg') ;float: left;"><h6>Air conditioners</h6></div>                       
+                <div class="box-img" style="background-image:url('box2/box12.jpg') ;float:left; "><h6>Refrigerators</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box13.jpg') ;float:left;"><h6>Microwaves</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box14.jpg') ;float:left;"><h6>Washing machines</h6></div>  
+                    <p class="see">see more</p>
+        </div>
+        <div class="box1 box">
+            <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box-img" style="background-image:url('box2/box11.jpg') ;float:left;"><h6>Air conditioners</h6></div>                       
+                <div class="box-img" style="background-image:url('box2/box12.jpg') ;float:left; "><h6>Refrigerators</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box13.jpg') ;float:left;"><h6>Microwaves</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box14.jpg') ;float:left;"><h6>Washing machines</h6></div>  
+                    <p class="see">see more</p>
+        </div>
+        <div class="box1 box">
+            <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box-img" style="background-image:url('box2/box11.jpg') ;float: left;"><h6>Air conditioners</h6></div>                       
+                <div class="box-img" style="background-image:url('box2/box12.jpg') ;float:left; "><h6>Refrigerators</h6></div>        
+                <div class="box-img" style="background-image:url('box2/box13.jpg') ;float:left;"><h6>Microwaves</h6></div>  
+                <div class="box-img" style="background-image:url('box2/box14.jpg') ;float:left;"><h6>Washing machines</h6></div>  
+                    <p class="see">see more</p>
+        </div>
+        <div class="boxn box signin">
+            
+            <div class="inbox1" ></div>
+                
+            <div class="inbox2 "><h2>Sign in for your best experience</h2><div class="securely"> sign in securely</div></div>
+        </div>
+        <div class="box9"><h2>Electronics scooters & motorbikes</h2>
+            <div class="images">
+                <img src="box3/box910.jpg" alt="box910">
+          <img src="box3/box92.jpg" alt="box92">
+          <img src="box3/box93.jpg" alt="box93">
+          <img src="box3/box94.jpg" alt="box94">
+          <img src="box3/box95.jpg" alt="box95">
+          <img src="box3/box96.jpg" alt="box96">
+          <img src="box3/box911.jpg" alt="box911">
+          <img src="box3/box99.jpg" alt="box99">
+          <img src="box3/box912.jpg" alt="box12">
+            </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot-panel1">
+                <a href="#topsection" style="color: white; font-size:0.90rem;text-decoration:none;">Back to top</a><br>
+            </div>
+            <div class="foot-panel2">
+                
+                
+                <ul>
+                    <p>Get to Know Us</p>
+                    <a>Career</a>
+                    <a>Blog</a>
+                    <a>About Amazon</a>
+                    <a>Invester Relation</a>
+                    <a>Amazon Devices</a>
+                    <a>Amazon Science</a>
+                </ul>
+                <ul>
+                    <p>Connect with Us</p>
+                    <a>Facebook</a>
+                    <a>Twitter</a>
+                    <a>Instagram</a>
+                    <a>Myntra</a>
+                    <a>Ajio</a>
+                    <a>Flipkart</a>
+                </ul>
+                <ul>
+                    <p>Make Money with Us</p>
+                    <a>Sell on Amazon</a>
+                    <a>Sell under Amazon Accelerator</a>
+                    <a>Protect and Build Your Brand</a>
+                    <a>Amazon Global Selling</a>
+                    <a>Become an Affiliate</a>
+                    <a>Fulfilment by Amazon</a>
+                    <a>Advertise Your Products</a>
+                    <a>Amazon Pay on Merchants</a>
+                </ul>
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a>COVID-19 and Amazon</a>
+                    <a>Your Account</a>
+                    <a>Returns centre</a>
+                    <a>100% Purchase Protection</a>
+                    <a>Amazon App Download</a>
+                    <a>Help</a>
+                </ul>
+            </div>
+            <div class="foot-panel3">
+                <div class="foot-image"></div>
+                <div class="foot-language">
+
+                    <select class="search-select">
+                        <option>&#127760 &nbsp; Lang</option>
+                        <option>English</option>
+                        <option>Hindi</option>
+                    </select></div>
+                    <div class="foot-country">
+
+                        <select class="search-select">
+                            <option>&#127987 &nbsp;country</option>
+                            <option>India</option>
+                            <option>Usa</option>
+                            <option>Uk</option>
+                        </select></div>
+            </div>
+        </footer>
+            <script>
+        function redirectToLogin() {
+            window.location.href = "login.html";
+        }
+    </script>
+    </body>
+  
+</html>

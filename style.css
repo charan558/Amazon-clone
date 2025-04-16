@@ -1,0 +1,387 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+body
+{
+    background-color: #e2e7e6;
+}
+.navbar
+{
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    background-color: #0f1111;
+    color: white;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo
+{
+    height: 50px;
+    width:100px;
+}
+.logo
+{
+    height:50px;
+    width:100%;
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+    background-image: url("IMG_20240519_124809.png");
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover
+{
+    border:1px solid white;
+}
+/* box 2*/
+.deliver
+{
+    font-size: 0.85rem;
+    color:#cccccc;
+    margin-left: 15px;
+}
+.india
+{
+    color:#ffffff;
+    font-size: 1rem Arial,sans-serif ;
+    margin-left: 3px;
+    
+}
+.location
+{
+    display: flex;
+    align-items: center;
+}
+/*box 3*/
+.nav_search
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav_search:hover
+{
+    border:2px solid orange;
+}
+.search-select
+{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;;
+}
+.search-input
+{
+    width:100vh;
+    height: 38px;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon
+{
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#fedb68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:#0f1111;
+}
+.account
+{
+    color:#ffffff;
+    background-color: #0f1111;
+    border: none;
+    font-weight: 700;
+}
+/*BOX 4*/
+span
+{
+    font-size: 0.7rem;
+}
+.nav-second
+{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+/*box 6*/
+.nav-cart i
+{
+    font-size: 30px;
+     margin-left: 15px;
+   
+}
+.nav-cart
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 15px;
+    color:#ffffff;
+}
+/* panel box 1*/
+.panel
+{
+    position:fixed;
+    top:60px;
+    height: 30px;
+    width:100%;
+    background-color: #222f3d;
+    color: white;
+     display: flex;
+     font: 0.1rem, arial,sans-serif ;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:0.9rem;
+    font-weight: 600; 
+}
+.panel-opns
+{
+    opacity:0.8;   
+}
+.panel-opns i
+{
+    font-size: 1.5rem;
+}
+.primee
+{
+    color:#ffffff;
+    background-color: #222f3d;
+    border:none;
+    font-size:0.9rem;
+    font-weight: 600;
+    opacity:0.8; 
+}
+.watchfree
+{
+    
+   display:flex;
+   justify-content: space-evenly;
+   width:300px;
+}
+.watchfree p
+{
+    font-size: 12px;
+    position:absolute;
+   right: 60px;
+}
+.watchfree i
+{
+    color: #ffffff;
+    margin-top: 15px;
+    margin-right: 30px;
+    font-size: 1rem;
+}
+/*hero*/
+/*.hero{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 600px;
+   
+}*/
+/*image sliding*/  
+  .slider {
+    overflow: hidden;
+    
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slides img {
+    width: 100%;
+    height: 600px;
+    margin-top: 95px;
+  }
+  
+  /* Optional: Style for slider controls */
+  .slider-controls {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .slider-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Style for active slide */
+  .slide-active {
+    border: 2px solid #007bff;
+  }
+  
+
+  /*shop-section*/
+  .shop-section{
+    display:flex;
+    margin-top: -200px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background-color: #e2e7e6;
+
+  }
+  .shop-section2{
+    display:flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   background-color: #e2e7e6;
+  }
+
+.box{
+    height:450px;
+    width: 23%;
+    
+   background-color: white;
+   
+  }
+  .box-img{
+    height:100px;
+    width:180px;
+    background-size: cover;
+    padding: 5px 5px 5px 5px;
+    margin : 18px 10px 10px 10px;
+  }
+  
+  h2{
+    margin-top:18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h6{
+    margin-top:110px;
+  }
+  .see{
+    margin-top:330px;
+    padding-left:10px;
+    color:rgb(25, 132, 151);
+  }
+.signin{
+    background-color: #e2e7e6;
+}
+.inbox1{
+    height:280px;
+    width: 80%;
+   margin-left: 35px;
+   background-color: white;
+  background-image: url('inbox1.jpg');
+   background-size:cover;
+  }
+
+.inbox2{
+    height:128px;
+    width:100%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+  }
+.securely{
+  height:35px;
+  margin-left:40px;
+  margin-top:40px;
+  width:80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ border-radius: 30px;
+ font-size:15px;
+  background-color: rgb(238, 191, 4);
+  text-transform:capitalize;
+}               
+.box9{
+  height:300px;
+  background-color: white;
+  width: 100%;
+  margin-top:30px;
+  margin-left:30px;
+  margin-right: 30px;
+
+}
+.images{
+  display:flex;
+  height:200px;
+}
+.foot-panel1{
+  height:49px;
+  background-color: #222f3d;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-panel2{
+  height: 500px;
+  background-color: #0b131c;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul p{
+  margin-top:50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 900;
+}
+ul a{
+  display: block;
+  margin-top: 10px;
+}
+.foot-panel3{
+  height:90px;
+  margin-top:0.05rem;
+  background-color:#0f1111;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.foot-panel3 .foot-image{
+ background-image: url('IMG_20240519_124809.png');
+ height:80px;
+ margin-top:30px;
+ width:100px;
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+.foot-language .search-select{
+  color:#ffffff;
+  background-color: #0f1111;
+
+  font-size:0.8rem;
+ margin-left:30px;
+  opacity:0.8; 
+  border-radius: 5px;
+  width:90px;
+  height:30px;
+}
+.foot-country .search-select{
+  color:#ffffff;
+  background-color: #0f1111;
+
+  font-size:0.8rem;
+ margin-left:30px;
+  opacity:0.8; 
+  border-radius: 5px;
+  width:90px;
+  height:30px;
+}
+
